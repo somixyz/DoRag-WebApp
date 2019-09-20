@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.durag.model.User;
 import com.durag.service.UserService;
 
+
 @RestController
 @RequestMapping("/user")
 public class UserController {
@@ -16,11 +17,11 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-//	public String login() {	}
+//	public String login() {}
 	
 	@RequestMapping(value="/register", method = RequestMethod.POST)
 	public User registerUser(@RequestBody User user) {
 		return userService.save(user);
 	}
-	
 }
+
