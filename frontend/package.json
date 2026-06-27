@@ -13,7 +13,7 @@
   "private": true,
   "dependencies": {
     "@angular/common": "^2.3.1",
-    "@angular/compiler": "^2.3.1",
+    "@angular/compiler": "^19.2.17",
     "@angular/core": "^11.2.14",
     "@angular/forms": "^2.3.1",
     "@angular/http": "^2.3.1",
@@ -23,7 +23,7 @@
     "core-js": "^2.6.12",
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
-    "zone.js": "^0.15.0"
+    "zone.js": "^0.15.1"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^2.3.1",
